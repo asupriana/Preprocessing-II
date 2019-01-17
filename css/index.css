@@ -168,14 +168,10 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.headpage {
+.header {
   display: flex;
   border-bottom: 3px dashed lightgrey;
   height: 60px;
-}
-.topnav {
-  display: flex;
-  align-self: flex-end;
 }
 .footer {
   width: 100%;
@@ -187,6 +183,12 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+header {
+  width: 100%;
+  margin: 1% auto 0 auto;
+  padding-bottom: 1%;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-section {
   margin: 30px 0;
@@ -238,4 +240,16 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  width: 80%;
+  height: 15%;
+  padding: 5%;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  background-color: #17A2B8;
+  font-size: 1.6rem;
+  color: #FFEBCD;
+  text-align: center;
 }
